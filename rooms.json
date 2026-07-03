@@ -27,20 +27,7 @@
     "services": ["إطلالة على المدينة", "غرفة معيشة منفصلة", "تلفاز ذكي", "خدمة الغرف", "واي فاي مجاني", "مكيف هادئ"],
     "description": "جناح ديلوكس أنيق مع إطلالة خلابة على أفق المدينة. يوفر مساحة واسعة وراحة فائقة مع خدمات راقية."
   },
-  {
-    "id": 3,
-    "name": "جناح عائلي",
-    "price": 950,
-    "currency": "SAR",
-    "available": false,
-    "images": [
-      "https://images.pexels.com/photos/2087245/pexels-photo-2087245.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/2087241/pexels-photo-2087241.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/2087233/pexels-photo-2087233.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "services": ["غرفتين نوم", "مطبخ صغير", "منطقة جلوس", "شرفة", "تلفاز", "واي فاي"],
-    "description": "جناح عائلي واسع يتسع لـ 4 أشخاص مع إطلالة جميلة. مثالي للعائلات الباحثة عن الراحة والخصوصية."
-  },
+  
   {
     "id": 4,
     "name": "غرفة قياسية",
