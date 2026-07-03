@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="description" content="إطلالة العزيزيه - غرف فاخرة مع خدمات مميزة. احجز غرفتك الآن وتمتع بإقامة لا تُنسى. فندق 5 نجوم في قلب الرياض.">
+  <meta name="keywords" content="فندق, إطلالة العزيزيه, حجز فندق, غرف فاخرة, فندق الرياض, فندق فاخر, luxury hotel, Saudi Arabia">
+  <meta name="author" content="إطلالة العزيزيه">
+  <meta name="theme-color" content="#c9a84c">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="إطلالة العزيزيه · حجز فاخر">
+  <meta property="og:description" content="غرف فاخرة مع خدمات مميزة. احجز غرفتك الآن وتمتع بإقامة لا تُنسى.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_SA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="إطلالة العزيزيه · حجز فاخر">
+  <meta name="twitter:description" content="غرف فاخرة مع خدمات مميزة. احجز غرفتك الآن.">
+
+  <title>إطلالة العزيزيه · حجز فاخر</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='icon.png' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏨</text></svg>">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-logo">
+      <div class="loading-logo-main">إطلالة العزيزيه</div>
+      <div class="loading-logo-sub">LUXURY HOTEL</div>
+    </div>
+    <div class="loading-spinner"></div>
+    <div class="loading-progress">
+      <div class="loading-progress-bar"></div>
+    </div>
+    <div class="loading-percent">0%</div>
+  </div>
+
+  <!-- ===== PAGE TRANSITION ===== -->
+  <div class="page-transition"></div>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor-main"></div>
+  <div class="cursor-trail"></div>
+
+  <!-- ===== 3D WEBGL CONTAINER ===== -->
+  <div id="webgl-container"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#home">
+          <span class="logo-gold">إطلالة العزيزيه</span>
+          <span class="logo-sub">LUXURY</span>
+        </a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+        <li><a href="#about" class="nav-link">من نحن</a></li>
+        <li><a href="#rooms" class="nav-link">الغرف</a></li>
+        <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+        <li><a href="#rooms" class="nav-link book-now-btn">احجز الآن</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+     <img src="background.png" alt="فندق الملاذ - منظر فاخر" class="hero-fallback-img">
+
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title">إطلالة العزيزيه</h1>
+      <p class="hero-sub">إقامة فاخرة مع إطلالة ساحرة . . . احجز غرفتك الآن</p>
+      <div class="hero-cta">
+        <a href="#rooms" class="btn btn-gold ripple-container">استكشف الغرف</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about" style="background: var(--dark-800);">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal-right">
+          <span class="section-tag">من نحن</span>
+          <h2 class="section-title" style="text-align: right;">إطلالة العزيزيه</h2>
+          <p>فندق إطلالة العزيزيه هو وجهة الفخامة والراحة في قلب الرياض. نقدم لكم تجربة إقامة استثنائية تجمع بين الأناقة العصرية والخدمات التقليدية الأصيلة.</p>
+          <p>تم تصميم كل غرفة وجناح بعناية فائقة لتوفر لضيوفنا أقصى درجات الراحة والخصوصية، مع إطلالات خلابة على معالم المدينة.</p>
+
+          <div class="about-features">
+            <div class="about-feature reveal">
+              <div class="about-feature-icon">🏨</div>
+              <div>
+                <h4>غرف فاخرة</h4>
+                <p>أجنحة مصممة بأعلى معايير الفخامة</p>
+              </div>
+            </div>
+            <div class="about-feature reveal">
+              <div class="about-feature-icon">✨</div>
+              <div>
+                <h4>خدمة متميزة</h4>
+                <p>فريق عمل متخصص على مدار الساعة</p>
+              </div>
+            </div>
+            <div class="about-feature reveal">
+              <div class="about-feature-icon">🍽️</div>
+              <div>
+                <h4>مطعم راقي</h4>
+                <p>أطباق عالمية ومحلية فاخرة</p>
+              </div>
+            </div>
+            <div class="about-feature reveal">
+              <div class="about-feature-icon">🛎️</div>
+              <div>
+                <h4>خدمة الغرف</h4>
+                <p>خدمة غرف على مدار الساعة</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#rooms" class="btn btn-gold ripple-container" style="margin-top: 24px;">استعرض غرفنا</a>
+        </div>
+        <div class="about-image glass-card reveal-left">
+          <img src="icon.png" alt="فندق إطلالة العزيزيه" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ROOMS ===== -->
+  <section class="section" id="rooms">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">غرفنا</span>
+        <h2 class="section-title">أجنحة فاخرة</h2>
+        <p class="section-subtitle">اختر من بين مجموعة متنوعة من الأجنحة الفاخرة المصممة لتوفير أقصى درجات الراحة</p>
+      </div>
+      <div class="rooms-grid" id="roomsGrid">
+        <!-- Rooms will be loaded dynamically from rooms.json -->
+        <div class="loading-state" id="loadingState">
+          <div class="spinner"></div>
+          <p>جاري تحميل الغرف...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact" style="background: var(--dark-800);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">تواصل معنا</span>
+        <h2 class="section-title">نحن هنا لخدمتك</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card glass-card reveal">
+          <span>📞</span>
+          <h4>الهاتف</h4>
+          <p>+966 55 180 7954</p>
+        </div>
+        <div class="contact-card glass-card reveal">
+          <span>✉️</span>
+          <h4>البريد الإلكتروني</h4>
+          <p>info@alaziziah.sa</p>
+        </div>
+        <div class="contact-card glass-card reveal">
+          <span>📍</span>
+          <h4>الموقع</h4>
+          <p>الرياض، العزيزية</p>
+        </div>
+        <div class="contact-card glass-card reveal">
+          <span>💬</span>
+          <h4>واتساب</h4>
+          <p>+966 55 180 7954</p>
+          <a href="https://wa.me/966551807954" target="_blank" rel="noopener noreferrer" class="btn btn-sm-gold ripple-container" style="margin-top: 10px;">تواصل</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>إطلالة العزيزيه</h4>
+          <p>فخامة وإطلالة ساحرة في قلب المدينة. نقدم لضيوفنا الكرام تجربة إقامة استثنائية تجمع بين الأناقة العصرية والخدمات التقليدية الأصيلة.</p>
+        </div>
+        <div class="footer-col">
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#rooms">الغرف</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>معلومات الاتصال</h4>
+          <p>📞 +966 55 180 7954</p>
+          <p>✉️ info@alaziziah.sa</p>
+          <p>📍 الرياض، المملكة العربية السعودية</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 إطلالة العزيزيه · جميع الحقوق محفوظة</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="الرجوع للأعلى">↑</button>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal-overlay" id="roomModal">
+    <div class="modal-content" id="modalContent">
+      <div id="modalBody">
+        <!-- Modal content will be loaded dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox-overlay" id="lightboxOverlay">
+    <img id="lightboxImg" src="" alt="صورة مكبرة">
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="script.js"></script>
+</body>
+</html>

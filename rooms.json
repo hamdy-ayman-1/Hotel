@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "جناح رئاسي",
+    "price": 1200,
+    "currency": "SAR",
+    "available": true,
+    "images": [
+      "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2716187/pexels-photo-2716187.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "services": ["إطلالة بانورامية", "جاكوزي خاص", "غرفة معيشة", "خدمة 24 ساعة", "تلفاز 65 بوصة", "ميني بار"],
+    "description": "جناح رئاسي فاخر بمساحة 120 متر مربع مع إطلالة ساحرة على المدينة. يتميز بتصميم أنيق وأثاث فخم يليق بكبار الضيوف."
+  },
+  {
+    "id": 2,
+    "name": "جناح ديلوكس",
+    "price": 850,
+    "currency": "SAR",
+    "available": true,
+    "images": [
+      "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2087231/pexels-photo-2087231.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "services": ["إطلالة على المدينة", "غرفة معيشة منفصلة", "تلفاز ذكي", "خدمة الغرف", "واي فاي مجاني", "مكيف هادئ"],
+    "description": "جناح ديلوكس أنيق مع إطلالة خلابة على أفق المدينة. يوفر مساحة واسعة وراحة فائقة مع خدمات راقية."
+  },
+  {
+    "id": 3,
+    "name": "جناح عائلي",
+    "price": 950,
+    "currency": "SAR",
+    "available": false,
+    "images": [
+      "https://images.pexels.com/photos/2087245/pexels-photo-2087245.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2087241/pexels-photo-2087241.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2087233/pexels-photo-2087233.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "services": ["غرفتين نوم", "مطبخ صغير", "منطقة جلوس", "شرفة", "تلفاز", "واي فاي"],
+    "description": "جناح عائلي واسع يتسع لـ 4 أشخاص مع إطلالة جميلة. مثالي للعائلات الباحثة عن الراحة والخصوصية."
+  },
+  {
+    "id": 4,
+    "name": "غرفة قياسية",
+    "price": 550,
+    "currency": "SAR",
+    "available": true,
+    "images": [
+      "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "services": ["سرير مزدوج", "تلفاز", "حمام خاص", "واي فاي مجاني", "مكيف", "مكتب عمل"],
+    "description": "غرفة مريحة وأنيقة بمساحة 35 متر مربع. توفر كل ما تحتاجه لإقامة ممتعة بأسعار مناسبة."
+  },
+  {
+    "id": 5,
+    "name": "جناح الشاطئ",
+    "price": 1100,
+    "currency": "SAR",
+    "available": true,
+    "images": [
+      "https://images.pexels.com/photos/2869798/pexels-photo-2869798.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2869794/pexels-photo-2869794.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2039703/pexels-photo-2039703.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2039695/pexels-photo-2039695.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "services": ["إطلالة على البحر", "شرفة خاصة", "مدخل خاص", "جاكوزي", "خدمة الشاطئ", "مطعم خاص"],
+    "description": "جناح الشاطئ الفاخر يمنحك إطلالة مباشرة على البحر مع شرفة خاصة ومدخل خاص. تجربة إقامة لا تُنسى."
+  },
+  {
+    "id": 6,
+    "name": "جناح تنفيذي",
+    "price": 780,
+    "currency": "SAR",
+    "available": true,
+    "images": [
+      "https://images.pexels.com/photos/2716187/pexels-photo-2716187.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "services": ["غرفة نوم", "غرفة معيشة", "مطبخ صغير", "تلفاز 55 بوصة", "واي فاي فائق السرعة", "خدمة الغرف"],
+    "description": "جناح تنفيذي مصمم خصيصاً لرجال الأعمال والمسافرين الباحثين عن الراحة والأناقة مع إطلالة متميزة."
+  }
+]
