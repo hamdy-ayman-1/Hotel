@@ -6,10 +6,9 @@
     "currency": "SAR",
     "available": true,
     "images": [
-      "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/2716187/pexels-photo-2716187.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "IMG-20260703-WA0007.jpg",
+      "IMG-20260703-WA0003.jpg",
+      "IMG-20260703-WA0001.jpg"
     ],
     "services": ["إطلالة بانورامية", "جاكوزي خاص", "غرفة معيشة", "خدمة 24 ساعة", "تلفاز 65 بوصة", "ميني بار"],
     "description": "جناح رئاسي فاخر بمساحة 120 متر مربع مع إطلالة ساحرة على المدينة. يتميز بتصميم أنيق وأثاث فخم يليق بكبار الضيوف."
